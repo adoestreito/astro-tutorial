@@ -1,0 +1,23 @@
+html {
+    background-color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 80ch;
+    padding: 1rem;
+    line-height: 1.5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 1rem 0;
+    font-size: 2.5rem;
+    color: rgba(255, 251, 3, 0.867);
+    text-shadow: 3px 3px 3px #000;
+}
