@@ -2,6 +2,7 @@
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
 import Social from "../components/Social.astro";
+import Test from "../components/Test.svelte";
 import "../styles/global.css";
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "About Me ";
@@ -36,7 +37,7 @@ const textCase = "uppercase";
 </style>
 <BaseLayout pageTitle={pageTitle}>
     <h2>{identity.firstName}... and my new Astro site!</h2>
-
+    <Test client:load />
     <p>
         I am working through Astro'ss introductory tutorial. This is the second
         page on my website, and it's the first one I built myself!
