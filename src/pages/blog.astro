@@ -7,12 +7,11 @@ import Social from "../components/Social.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Blog";
 const allPosts = Object.values(
-    import.meta.glob("./posts/*.md", { eager: true })
+    import.meta.glob("./posts/*.md", { eager: true }),
 );
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    console.log(allPosts);
     <h2>My Astro Learning Blog</h2>
     <p>This is where I will post about my journey learning Astro.</p>
     <ul>
